@@ -1,0 +1,13 @@
+.container {
+    margin-top:9%;
+    width: 30%;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+    padding-top: 40px ;
+    padding-bottom: 70px;
+    padding-left: 30px;
+    padding-right: 50px;
+    background-image:linear-gradient(#0F8BAB,#20CF9F,#FFFFFF);
+}
+body{
+    background-color: #157057;
+}
