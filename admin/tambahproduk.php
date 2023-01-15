@@ -26,7 +26,7 @@ while($tiap=$ambil->fetch_assoc()){
 	</div>
 	<div class="form-group">
 		<label>Harga(Rp)</label>
-		<input type="number" name="harga" class="form-control" >
+		<input type="number" name="harga" class="form-control" e>
 	</div>
 	<div class="form-group">
 		<label>Berat(gr)</label>

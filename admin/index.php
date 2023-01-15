@@ -1,4 +1,4 @@
-﻿<?php 
+ <?php 
 session_start();
     //koneksi ke database  
 include '../koneksi.php';
@@ -13,7 +13,8 @@ if (!isset($_SESSION['admin']) )  {
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-      <meta charset="utf-8" />
+
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bakoelbarang.id</title>
 	<!-- BOOTSTRAP STYLES-->
@@ -27,6 +28,7 @@ if (!isset($_SESSION['admin']) )  {
      <!-- GOOGLE FONTS-->
    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
     <script src="assets/js/jquery-1.10.2.js"></script>
+
 </head>
 <body>
     <div id="wrapper" >
@@ -42,6 +44,7 @@ if (!isset($_SESSION['admin']) )  {
             </div>
     <div style="color: white; padding: 15px 50px 5px 50px; float: right; font-size: 16px;"> &nbsp; 
         </nav>   
+        
 
            <!-- /. NAV TOP  -->
         <nav class="navbar-default navbar-side" role="navigation" >
@@ -61,8 +64,8 @@ if (!isset($_SESSION['admin']) )  {
             </div>            
         </nav>  
 
-        <!-- /. NAV SIDE  -->
-        <div id="page-wrapper" >
+            <!-- /. NAV SIDE  -->
+            <div id="page-wrapper" >
             <div id="page-inner"> 
                 <?php 
                     if(isset($_GET['halaman'])){
